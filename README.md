@@ -27,5 +27,6 @@ This Python script automates the process of deleting files within the OpenText e
 - The `matterGrabber.py` script is designed to extract matter numbers from a PDF file that adheres to a specific format or layout. It may require adjustments or modifications to work with PDFs of different structures.
 
 ## Why I Made This
-As an intern, one of my task was repeatedly deleting files within the OpenText eDOC DM 16.7.0 software environment. The manual process was time-consuming and prone to errors as the software was written 2004, leading to frustration and inefficiency. To streamline this task I created this automated matter deletion tool. By automating the process, I was able to significantly reduce the time and effort required for file deletion, allowing me to focus on more meaningful work tasks
+As an intern, one of my task was repeatedly deleting files within the OpenText eDOC DM 16.7.0 software environment. The manual process was time-consuming and prone to errors as the software was written 2004, leading to frustration and inefficiency. To streamline this task I created this automated matter deletion tool. Since
+there were no API's I could connect to I had to use GUI automation software so the computer could do it as though it was a user
 
