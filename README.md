@@ -11,12 +11,12 @@ This Python script automates the process of deleting files within the OpenText e
 - **Image Recognition**: The script uses .png files to identify specific elements within the application. These images are reference points for the script to perform actions like clicking buttons or entering text.
 
 ## Usage
-1. Ensure Python and the required libraries (pyautogui, win32gui, pygetwindow, psutil, PyPDF2) are installed.
-2. Place the .png files in the same directory as the script.
-3. Run the `Auto.py` script to initiate the automated matter deletion process.
-4. The script will prompt for matter numbers stored in a text file. Ensure the file is formatted correctly with one matter number per line.
-5. The script will interact with the OpenText eDOC DM software environment, deleting files associated with the provided matter numbers.
-6. Monitor the script for any errors or issues. If encountered, the script will attempt to restart the application automatically.
+- Ensure Python and the required libraries (pyautogui, win32gui, pygetwindow, psutil, PyPDF2) are installed.
+- Place the .png files in the same directory as the script.
+- Run the `Auto.py` script to initiate the automated matter deletion process.
+- The script will prompt for matter numbers stored in a text file. Ensure the file is formatted correctly with one matter number per line.
+- The script will interact with the OpenText eDOC DM software environment, deleting files associated with the provided matter numbers.
+- Monitor the script for any errors or issues. If encountered, the script will attempt to restart the application automatically.
 
 ## Additional Notes
 - The `matterGrabber.py` script is included to extract matter numbers from PDF files. It is part of the workflow to prepare matter numbers for deletion.
